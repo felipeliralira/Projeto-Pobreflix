@@ -3,11 +3,15 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
+    --fonte-principal: 'inter';
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--frase-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .principal{
@@ -28,9 +32,15 @@ body{
     padding: 1em;
     color: var(--frase-principal);
     display: block;
+    text-decoration: none;
 }
 
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--frase-principal);
+}
+
+.container_aviso{
+    font-size: 14px;
+    color: var(--cinza-secundario);
 }

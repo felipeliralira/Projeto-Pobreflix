@@ -2,7 +2,7 @@
     --frase-principal: #ffffff;
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
-    --cor-de-fundo: #00030c;
+    --cor-de-fundo: #000000;
     --fonte-principal: 'inter';
 }
 
@@ -17,7 +17,8 @@ body{
 .principal{
     background-image: url("img/pobreflix.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: 30em -5em;
+    background-size: 900px;
 }
 
 .container{
@@ -33,6 +34,8 @@ body{
     color: var(--frase-principal);
     display: block;
     text-decoration: none;
+    margin: 1em 0 1em 0;
+    margin: 1em;
 }
 
 .botao_secundario{
@@ -43,4 +46,15 @@ body{
 .container_aviso{
     font-size: 14px;
     color: var(--cinza-secundario);
+    margin: 0 1em;
+}
+
+.container_titulo{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 1em;
+}
+
+.container_div{
+    margin: 0 2em;
 }

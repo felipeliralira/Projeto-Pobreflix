@@ -19,12 +19,14 @@ body{
     background-repeat: no-repeat;
     background-position: 30em -5em;
     background-size: 900px;
+    text-align: center;
 }
 
 .container{
     height:100vh;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+
 }
 
 .container_botao{
@@ -57,4 +59,24 @@ body{
 
 .container_div{
     margin: 0 2em;
+}
+
+.secundario_imagem{
+    width: 100%;
+
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 1em;
+}
+
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+
+.descricao_texto{
+    color:var(--cinza-secundario);
 }

@@ -17,15 +17,15 @@ body{
 .principal{
     background-image: url("img/pobreflix.png");
     background-repeat: no-repeat;
-    background-position: 30em -5em;
-    background-size: 900px;
+    background-position: 40em -5em;
+    background-size: 850px;
     text-align: center;
 }
 
 .container{
     height:100vh;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
 
 }
 
@@ -79,4 +79,28 @@ body{
 
 .descricao_texto{
     color:var(--cinza-secundario);
+}
+
+.descricao_section3{
+    font-size: 30px;
+}
+
+.secundario_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container_descricao{
+    padding: 2em;
+}
+
+.dispositivos_lista{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2em 0;
+}
+
+.dispositivos{
+    text-align: center;
 }
